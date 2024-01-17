@@ -1,0 +1,828 @@
+[
+    {
+        "displayName": {
+            "languageCode": "ro",
+            "text": "MOL"
+        },
+        "formattedAddress": "Bulevardul Iuliu Maniu 205-215, București 061099, Romania",
+        "location": {
+            "latitude": 44.434284,
+            "longitude": 25.986364
+        },
+        "photos": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Renovatio e-charge Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 3
+        },
+        "formattedAddress": "Șoseaua Orhideelor 46, București, Romania",
+        "location": {
+            "latitude": 44.4481822,
+            "longitude": 26.067868999999998
+        },
+        "photos": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Renovatio e-charge Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 3
+        },
+        "formattedAddress": "Strada Mihail Sebastian 88, București 050784, Romania",
+        "location": {
+            "latitude": 44.4172964,
+            "longitude": 26.070528
+        }
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "LEKTRI.CO Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 2
+        },
+        "formattedAddress": "Novum Invest, Splaiul Independenței 313B, București 060042, Romania",
+        "location": {
+            "latitude": 44.4423019,
+            "longitude": 26.0517269
+        }
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Renovatio e-charge Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 3
+        },
+        "formattedAddress": "Strada Valea Cascadelor 3-5, București 062182, Romania",
+        "location": {
+            "latitude": 44.4319865,
+            "longitude": 26.0056236
+        }
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Renovatio e-charge"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 1
+        },
+        "formattedAddress": "Strada Apolodor 2, București 030167, Romania",
+        "location": {
+            "latitude": 44.4288688,
+            "longitude": 26.0952489
+        },
+        "photos": [
+            [Object
+            ]
+        ]
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Lidl Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 3
+        },
+        "formattedAddress": "Calea Giulești 225, București 077042, Romania",
+        "location": {
+            "latitude": 44.464849099999995,
+            "longitude": 26.0379135
+        }
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Renovatio e-charge Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 1
+        },
+        "formattedAddress": "Bd. Timișoara 26, București 061331, Romania",
+        "location": {
+            "latitude": 44.4293325,
+            "longitude": 26.0355685
+        },
+        "photos": [
+            [Object
+            ]
+        ]
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "ENEL X Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 5
+        },
+        "formattedAddress": "Strada Grigore Cobălcescu 45a, București 030167, Romania",
+        "location": {
+            "latitude": 44.4386557,
+            "longitude": 26.0832384
+        },
+        "photos": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "displayName": {
+            "languageCode": "en",
+            "text": "Lidl Charging Station"
+        },
+        "evChargeOptions": {
+            "connectorAggregation": [Array
+            ],
+            "connectorCount": 3
+        },
+        "formattedAddress": "Bulevardul Iuliu Maniu 432, București 061087, Romania",
+        "location": {
+            "latitude": 44.4346239,
+            "longitude": 25.992157400000004
+        }
+    }
+]
+ LOG  {
+    "places": [
+        {
+            "formattedAddress": "Bulevardul Iuliu Maniu 205-215, București 061099, Romania",
+            "location": {
+                "latitude": 44.434284,
+                "longitude": 25.986364
+            },
+            "displayName": {
+                "text": "MOL",
+                "languageCode": "ro"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFiPQgdmBdsAS__bYaSprpZuLaStaYr6wxCDfjuv6gOpvbZkY3OCxS77l0db5iFnw2Bexhu_tN72IQoFsu4Gn-MC1L4nX6TY7A-yS_I-89G2DL9lNIcFWPFhSl1OyN3jxQ6NFXA9PR8G9ttwq555KKty7UaJNdjZwiFr",
+                    "widthPx": 1153,
+                    "heightPx": 649,
+                    "authorAttributions": [
+                        {
+                            "displayName": "MOL",
+                            "uri": "//maps.google.com/maps/contrib/103442211281803583905",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWCaAe8eAl2fxpDcsYZfhN_QJLGFLDjHgCCiRCnKC5vtg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFhBFyA-sz4Er1LN13WAdzPRrtGMifNXlK1PWBpU_OgH3h-3fALdePZrLQkPj3x88odsOsfyRltqSieWqsqIdEdGqOcvZkaDpInVbFdMbC8ilcXtQDkDmPlBqJCm16MxpKu3xDDISljOK96mot27hosmp0Vf-vz8LFMx",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pedro Ms",
+                            "uri": "//maps.google.com/maps/contrib/104562487969664808324",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUq139TJtr-5lqe2Zvv9iswiUt7g3UlRKEE2yY3QC9VIeM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFgE68fphBd9fuW6WcM7Uf-z7zrsx0O5CQRRZ0NFnvlm1EfL3mV2wJW02iSfM-bNc0W6mugtjNTbZjV9GZrzT4sNC3pZ6NT4m0nIvvGdNd43aBUD_oZq2NUyIDc-vHOwyreFW7ziDULDbpKM2Y8ZNPMkeZsa2VNzoAb7",
+                    "widthPx": 4032,
+                    "heightPx": 1960,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marius Toropu",
+                            "uri": "//maps.google.com/maps/contrib/118106832745633956501",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsHndvwhA5YfQEtFGEb46WAR3jdtwoVcs98ZsZv62tqwpd=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFj9gBVCXsIIUz-e8bmVIsxJYroX-NF4enTu_Ou8O6jBmJ8BuCLyzQxmPa7BIVurp7fDJxZ1rja1kuaWf8nph-eDy5W2dU96raz931ZT_7G4Vji3Q45zQlblyl3X4N4ABpDIgqPZZUXBFxHjuJAmEKtU2XV3NO0jHQAp",
+                    "widthPx": 5312,
+                    "heightPx": 2988,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Voiculescu",
+                            "uri": "//maps.google.com/maps/contrib/102692172465436343442",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUyVRWnh93rgthMHuKE1lVSIuHe717C-uA_Ydq2YIGtnD8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFhQox1PndxPMB4ug8Lb2bwL9DvPk-fVkOX2fONbPS3qOVQlzrA7OwERea0CPIhEVwYkT_JOkwYgTmCD4bMIkWylSicT1TuPqJx8gid2ukijnALACJOYzRxwJXZGNeVfkQvdcm3dJwGB-1l_LDo7yUptBzzD59AzY7d_",
+                    "widthPx": 2240,
+                    "heightPx": 3968,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Eduard Edytaa",
+                            "uri": "//maps.google.com/maps/contrib/102077751822229685652",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIc6QLxSd5LbjKNQ97FpMoiADhnWvUFvG_zsrSt6Lpi=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFj58QwtxetWi6dsT75I9XPRgj4bdD5OLpqAa7LeQZgDz3esqzbjSqHU_ufGAINFxbhcRWFWiHeyXe5IeeqI1O4fbfjk8hRKj4BgEkYYq4PTVr4Hg1mLLbj7LPmKpNdn1j64fu_h3V6ZyxyiKjQ3yLqYLSyCa76s-_AV",
+                    "widthPx": 4608,
+                    "heightPx": 3456,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Alexandru Constantin",
+                            "uri": "//maps.google.com/maps/contrib/103972185030453443887",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUo_41MeQm6N6rhUX7RPoLwNTNk15Ks0DofkIyqGr5bvg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFjzCXy7Q-qXaR8sDtQ1DV-ALnHN-S9ZAotZQHGFZmuawATGlxKykozAZe6Fdqw91JngaeaIK4knL7vRjeX2DQoqr-DVpW0Qd2FGpJ2ezsUFTfkAGtAC5qZcuL6B89Eu5bc_-M02EioaUStMKaOu8XY4v8_KsnF51oaK",
+                    "widthPx": 2240,
+                    "heightPx": 3968,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Eduard Edytaa",
+                            "uri": "//maps.google.com/maps/contrib/102077751822229685652",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIc6QLxSd5LbjKNQ97FpMoiADhnWvUFvG_zsrSt6Lpi=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFhK6j6lIg1_49FCSHw_qFB63ckqqatX5p9etjTYVUCTQj58t8oLjcA6WC8w53kuC21Y0zDJNInj5xz8POWpe9dRNRoJON2GtS36EM818gQMfa3ta3EdSyGgDXewGJngpH_hyNu9UurSasDAn_ielIO5qKXli02tyw6m",
+                    "widthPx": 3648,
+                    "heightPx": 2736,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Andreea C",
+                            "uri": "//maps.google.com/maps/contrib/102153282716164893809",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXZbMIx2pPVkDLOSKbpQtFNGTT_MgXcw0a5KQka7b0XMNPD=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFj4MzDysgrhf4VjH0KAzbYRG4nbfghe0QhjNICwC-e9LpgF5qc921Z3iihIyayA4gO3dNWsPhBKJpUr8u1ywBrm83eZDAbr6fCpSnyKV7oa6xBsk3tAOcBUPO-yX1JOjBtGwDWJiGGaJuO4p-aAlHHCxp1HVAphR1Xv",
+                    "widthPx": 3840,
+                    "heightPx": 2160,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Grzegorz",
+                            "uri": "//maps.google.com/maps/contrib/103589111721571367265",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU-e0_zubQp7a2i3hmdyASDTt86VKIP7OHJ7WY24M3KexrQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJpQNydMgBskARKMdyq9fnUKw/photos/AWU5eFiduYAkW1s56CaNRZSfgjVp9Kjgqo-a4hSg3ZDSeDep1zVXuTGaTyvX9aS-2J0bUgQtepv8hf2doun8EnJ01J__XBHmowL0lze4W9cotnEBiJ0W2YWL24psV6lWI8FuLFfAIBXcOggjafqY5rkmkkResgVVTLCChuY",
+                    "widthPx": 3968,
+                    "heightPx": 2976,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Plus Unu",
+                            "uri": "//maps.google.com/maps/contrib/113129796019272446401",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVbbifSr05c1dMDE2PRGGwHVBGE2XsS_lUJP9ILD06myg=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "formattedAddress": "Șoseaua Orhideelor 46, București, Romania",
+            "location": {
+                "latitude": 44.4481822,
+                "longitude": 26.067868999999998
+            },
+            "displayName": {
+                "text": "Renovatio e-charge Charging Station",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFg4DSwthXujBl2VU8JjPi7XIGtEo_2tUXB5FeTxsXiqDsbdElrbEIY2mqmMF5iU05E1dveiIhnReiw_ZywhfjoYHSM5tv7UUqtnjIrVas4hRr6BrGgfZDi330FSdOAoCUo15KbcOhO5wRjDj8mcZap6R4zkwqbDoaA1",
+                    "widthPx": 4000,
+                    "heightPx": 1868,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Virgiliu Cimpoeru",
+                            "uri": "//maps.google.com/maps/contrib/102827993046542309978",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZlgAHkjF_-qg_kBP2ymLwshqW-F_DK-al0rz8gsFAPLQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFjpzfMs2A0CP0ADqABahv0tvUGNUByni0ouxAT3ywk_jz_5w-oS0JHtP8cBLVV9uFAdAYXUgYoOtAunJXJajI3XNdY9oxbXYeuW9pMfUg8cGc5SINc6tpazXqxE1GJ7a7q9PiDEujnkarf_TWaWqzjLDMmyzUzoKRSa",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Alex Teodor",
+                            "uri": "//maps.google.com/maps/contrib/111597208658275054570",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU3Hy6XGGEsR5a9fF3n2Vgo0mLW0DVCqQ5g9N8hBWaabw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFi0rGwdDrpERj3VIO0fMj1o-XYMDQ0Sc51zp0QMRyRV6di5EwmD5J4VMkbJPvQSqW9Dzca0CkZ7VecsZHWWsqNWZHUB8mvCry6MmxabtyGTlijXWCp1ETmXmQA0moKu2rWfkZ2dLsONlgsWP_6bbRCBbaYmmGAgw0ly",
+                    "widthPx": 4000,
+                    "heightPx": 1868,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Virgiliu Cimpoeru",
+                            "uri": "//maps.google.com/maps/contrib/102827993046542309978",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZlgAHkjF_-qg_kBP2ymLwshqW-F_DK-al0rz8gsFAPLQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFiWpHWwkmZ9Y74JhAwa9iFOeex1kKXpQ_SO-GdPPPZUL93Ep6NCD9FgAYOWE3mizdy4O3GhIrLYnU4TWFiktb32ztjgw8acVSONYGTKo1D6TN96VH7J2JNoUDtxnH-0N2Rt5EAYQaChDHPf82gdTyk3sAG6B2SfQHEP",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Alex Teodor",
+                            "uri": "//maps.google.com/maps/contrib/111597208658275054570",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU3Hy6XGGEsR5a9fF3n2Vgo0mLW0DVCqQ5g9N8hBWaabw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFgITIMaLJ8rGv0lNFPx7u4G2oMl7nON_nIv-BDQD6QwyrdzNCuxfNxvUZZ9BlKO4to9yx9R8YhxmpW0THP1ywzwdCs-9lOm6zszZFTs7nNcaiJ5alOzkBSjaNCpBsLTLfi3eTPPAVZ9TUnn8JJDhKqKctmKaZHqK0yx",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ben OnTour",
+                            "uri": "//maps.google.com/maps/contrib/103513271466172193255",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKTkXTgDC0cCbqWhZW2-wnStX7I_EilBd3T8pNe35oT=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFg9UQUnhLxz5OZ5So6J2efgbBtmZaKHvLoAUSmsAqZeV54e_q_IVzMnn70fdCKZWBMhnqc08fWV8pkAJ9dZzzQBWx6doxbd27v7zMhGAUlghswO0qTCsiC_cNMTeFkQsfJIPW8s7VJcHyKaHCLvIi3r242WSGKowDA-",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "SeLfIaN VS",
+                            "uri": "//maps.google.com/maps/contrib/102262309591597443844",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV_2Kn0jeBTe7oJ7WsmKL6gZnXesWuH-0FCwmtn-XX9N2j4=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFiLMsLLyEqNhlVEtq383Lr99HVOZlRiBCsBG0Gy09_pyPDBQPxIZcOKbW2j7Ivl4XWUFfOFbrOsCIesga2cE_sxoaWicvIpjlyo5FSB-4OIZnwGcaMIx3pdM09LI520_4VYYF3gIrO7O-3Uc4VxgISUz5CB2BqckX3v",
+                    "widthPx": 2181,
+                    "heightPx": 927,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Nick B.",
+                            "uri": "//maps.google.com/maps/contrib/100769404232796083921",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJy1Jvg6F4_-fGARDu3YsN0RG7OYZuo4t_oiQIP4rQ6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFiBfFnLDDQO4tG3t2OaPNsi2CzQfEcZn-35gqfoOz9Q3tiZUFunn7o7j8ZtRGbiIoAdxUza2ju9O6aisqe2bWMj7t5WJgArslvgtqwo2n4YNicL49TPV1lVN-NOsjWaJa50RpdobYbVkJjx-8q4f4F7ZXspwK_--uoT",
+                    "widthPx": 4000,
+                    "heightPx": 1868,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Virgiliu Cimpoeru",
+                            "uri": "//maps.google.com/maps/contrib/102827993046542309978",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZlgAHkjF_-qg_kBP2ymLwshqW-F_DK-al0rz8gsFAPLQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJaaieBfABskARj3mRL4MZqr4/photos/AWU5eFjJ-OAEpW03hTIo1cqDTxASRC77NYSK9s6q9vSum8qwz1mCIjRNHLllle616mWkuSkasZUdBwd8ekG59sXkZw3mFu38sUMMi9O7nJcU5BsMoembEnXCpUZXoltO0CGBeyTw2v2z36ZPb6FgMvUE8CeiimajW16ItdfZ",
+                    "widthPx": 1931,
+                    "heightPx": 2689,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ben OnTour",
+                            "uri": "//maps.google.com/maps/contrib/103513271466172193255",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKTkXTgDC0cCbqWhZW2-wnStX7I_EilBd3T8pNe35oT=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "evChargeOptions": {
+                "connectorCount": 3,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Strada Mihail Sebastian 88, București 050784, Romania",
+            "location": {
+                "latitude": 44.4172964,
+                "longitude": 26.070528
+            },
+            "displayName": {
+                "text": "Renovatio e-charge Charging Station",
+                "languageCode": "en"
+            },
+            "evChargeOptions": {
+                "connectorCount": 3,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Novum Invest, Splaiul Independenței 313B, București 060042, Romania",
+            "location": {
+                "latitude": 44.4423019,
+                "longitude": 26.0517269
+            },
+            "displayName": {
+                "text": "LEKTRI.CO Charging Station",
+                "languageCode": "en"
+            },
+            "evChargeOptions": {
+                "connectorCount": 2,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Strada Valea Cascadelor 3-5, București 062182, Romania",
+            "location": {
+                "latitude": 44.4319865,
+                "longitude": 26.0056236
+            },
+            "displayName": {
+                "text": "Renovatio e-charge Charging Station",
+                "languageCode": "en"
+            },
+            "evChargeOptions": {
+                "connectorCount": 3,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 50,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Strada Apolodor 2, București 030167, Romania",
+            "location": {
+                "latitude": 44.4288688,
+                "longitude": 26.0952489
+            },
+            "displayName": {
+                "text": "Renovatio e-charge",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJbT9j12r_sUARDwFV025cW4k/photos/AWU5eFgsQydYRf9SwGuqkwhDinCVbG_lfJcMUaUN-vHSjtqyxEdztjikU5e1_OGk02BHUGeejFs5TLrK4wYeagsGKv08hdtBwYMQOcdXELhzH74AQrlTFitvE2PNmEwDEkfwJTFLNx-umffUMWKKs_upplUZFqwLkjcNfDHe",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Andrei Radulescu",
+                            "uri": "//maps.google.com/maps/contrib/112121554701998134492",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVptZ68mf_V2LmJvtAL-YjmW4lJJPMt0AV6YkH9WWvKewA=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "evChargeOptions": {
+                "connectorCount": 1,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Calea Giulești 225, București 077042, Romania",
+            "location": {
+                "latitude": 44.464849099999995,
+                "longitude": 26.0379135
+            },
+            "displayName": {
+                "text": "Lidl Charging Station",
+                "languageCode": "en"
+            },
+            "evChargeOptions": {
+                "connectorCount": 3,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 0,
+                        "outOfServiceCount": 1,
+                        "availabilityLastUpdateTime": "2024-01-14T18:35:00Z"
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1,
+                        "availableCount": 0,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-01-14T18:35:00Z"
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 0,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-01-14T18:35:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Bd. Timișoara 26, București 061331, Romania",
+            "location": {
+                "latitude": 44.4293325,
+                "longitude": 26.0355685
+            },
+            "displayName": {
+                "text": "Renovatio e-charge Charging Station",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJIc8UbsoBskARoYD-2OLvOXI/photos/AWU5eFgNU1Hp4BO0354BoB345hfWj7lcNQnAMB7qzoWb2vmc_jAsrqalJVuT7XEZb_XO0X9aERCEr4MN6uUc3ABF0ttgm_lrVvu0Vuvr3cJiYZZLTJRxoadt26BDGuCdyaBaiTzx0Erf7omOuMHOOdDDUxv0F_FwgKRU0t2j",
+                    "widthPx": 3550,
+                    "heightPx": 1908,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Nick B.",
+                            "uri": "//maps.google.com/maps/contrib/100769404232796083921",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJy1Jvg6F4_-fGARDu3YsN0RG7OYZuo4t_oiQIP4rQ6=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "evChargeOptions": {
+                "connectorCount": 1,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Strada Grigore Cobălcescu 45a, București 030167, Romania",
+            "location": {
+                "latitude": 44.4386557,
+                "longitude": 26.0832384
+            },
+            "displayName": {
+                "text": "ENEL X Charging Station",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJr34lBFz_sUARpIG__v70v3E/photos/AWU5eFhC2jUW0Eyg8I77zK_JENjmKbafWVAKloaebIBNKfGni_nnva6YLeVaTv1uHDZRfvUFxRsRyY-pBoDBHqiuZi4S8dLdT534etydQA8pcX0HlQCIez1gEmGX-uJcW_a2-svQx0KpOUFnIH9ZnWY4ZOPW7WXfJ6th_b-v",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Pavelescu's Media Expres",
+                            "uri": "//maps.google.com/maps/contrib/103196892167975574206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFLUIqjw8ZZsxacdCEHwpQn7hveHvKXOM9bffRCJ3Ihc0K=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJr34lBFz_sUARpIG__v70v3E/photos/AWU5eFgY6p4T57wjPunej5FYQZ0iFPBI22HDuNgAoUJXMEfBkt1z4rdj4j2re14rh9zf3geHW43pmCysLzh5I5GGqEyAf7GPiZvrto0mN8dcZYrqzeZ9E5UVDP93WsFytwRforZTWUjRoCQ44lYeMOAkLc8522Kd9lhME-FH",
+                    "widthPx": 1920,
+                    "heightPx": 1080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Pavelescu's Media Expres",
+                            "uri": "//maps.google.com/maps/contrib/103196892167975574206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFLUIqjw8ZZsxacdCEHwpQn7hveHvKXOM9bffRCJ3Ihc0K=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJr34lBFz_sUARpIG__v70v3E/photos/AWU5eFipfhMbw5aqx9A9YpAfoxgZGvOoDXCOKUlluTDGwitP8YxPqcruRXulNGvCqKnJkhH4vngi49iHMTxhPJT2RQ5q8Eenc0eKC5ioAg5-HyHpV_qOjbHaVbxjY5hed7-77VzMS_b9qO9Bg8Bw0o3pyElipZ1D7NIaRIqE",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Pavelescu's Media Expres",
+                            "uri": "//maps.google.com/maps/contrib/103196892167975574206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFLUIqjw8ZZsxacdCEHwpQn7hveHvKXOM9bffRCJ3Ihc0K=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJr34lBFz_sUARpIG__v70v3E/photos/AWU5eFhHHTMdauRe0o78OeBHMJy15ca18otLhtCPoWLyOtvnj2Zhl481WLaV2UiefjVxzkdOx6oGYyWhb8wffup6APLKDkxZR1JLcpEHMvnNILcotMkGZFfCpESgS_KEdZK1Xn77eDIhpT4R8fqAPItw6WgvqW0lzejPBK8p",
+                    "widthPx": 1080,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Pavelescu's Media Expres",
+                            "uri": "//maps.google.com/maps/contrib/103196892167975574206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFLUIqjw8ZZsxacdCEHwpQn7hveHvKXOM9bffRCJ3Ihc0K=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJr34lBFz_sUARpIG__v70v3E/photos/AWU5eFhX0E9NiDtldXXhJsp3y2pAEZ1sF29u0gIl6qYusxWRsJxVZ7tqgPIKsO_I-HC4W1z8ey_WPdmSP-QcbXsgH73XLbWIBDr2eK5F48dAJw9kXy4B8VAcRRF1e1BozljwggDFDkXwpwQk0nx4UdBK72n6pnZderRm9Aoa",
+                    "widthPx": 1920,
+                    "heightPx": 1080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mihai Pavelescu's Media Expres",
+                            "uri": "//maps.google.com/maps/contrib/103196892167975574206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFLUIqjw8ZZsxacdCEHwpQn7hveHvKXOM9bffRCJ3Ihc0K=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "evChargeOptions": {
+                "connectorCount": 5,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 60,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 60,
+                        "count": 1
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 20,
+                        "count": 2
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "formattedAddress": "Bulevardul Iuliu Maniu 432, București 061087, Romania",
+            "location": {
+                "latitude": 44.4346239,
+                "longitude": 25.992157400000004
+            },
+            "displayName": {
+                "text": "Lidl Charging Station",
+                "languageCode": "en"
+            },
+            "evChargeOptions": {
+                "connectorCount": 3,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_TYPE_2",
+                        "maxChargeRateKw": 22,
+                        "count": 1,
+                        "availableCount": 1,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-01-14T18:40:00Z"
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CHADEMO",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 0,
+                        "outOfServiceCount": 1,
+                        "availabilityLastUpdateTime": "2024-01-14T18:40:00Z"
+                    },
+                    {
+                        "type": "EV_CONNECTOR_TYPE_CCS_COMBO_2",
+                        "maxChargeRateKw": 50,
+                        "count": 1,
+                        "availableCount": 1,
+                        "outOfServiceCount": 0,
+                        "availabilityLastUpdateTime": "2024-01-14T18:40:00Z"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,14 +1,18 @@
 import { View, Text, StyleSheet } from 'react-native'
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import AppMappView from './AppMappView'
 import Header from './Header'
 import SearchBar from './SearchBar'
 import { UserLocationContext } from '../../Context/UserLocationContext'
-import Globalapi from '../../Utils/Globalapi'
+import GlobALApi from '../../Utils/GlobALApi'
+import PlaceListView from './PlaceListView'
+import { SelectMarkerContext } from '../../Context/SelectMarkerContext'
 
 export default function HomeScreen() {
 
   const {location, setLocation} = useContext(UserLocationContext);
+  const [placeList, setPlaceList] = useState([]);
+  const [selectedMarker, setSelectedMarker]  = useState([]);
 
   useEffect(() => {
     location&&GetNearByPlace();
@@ -26,22 +30,36 @@ export default function HomeScreen() {
     }
   }
 }
-    Globalapi.NewNearByPlace(data).then(resp => {
+
+  
+    GlobALApi.NewNearByPlace(data).then(resp => {
+      setPlaceList(resp.data?.places);
       console.log(JSON.stringify(resp.data));
-    
     })
+  
+   
   }
 
   return (
+    <SelectMarkerContext.Provider value={{selectedMarker, setSelectedMarker}}>
+
     <View>
       <View style={styles.headerContainer}>
         <Header />
-        <SearchBar searchedLocation={(location)=> console.log(location)}/>
+        <SearchBar
+        searchedLocation={(location)=> setLocation({
+          latitude: location?.lat,
+          longitude: location?.lng,
+        })}/>
       </View>
-      <AppMappView
-      
-      />
+      {placeList&& <AppMappView
+      placeList={placeList}
+      /> }
+      <View style={styles.placeListContainer}>
+       {placeList&&<PlaceListView placeList={placeList} />}
+      </View>
     </View>
+      </SelectMarkerContext.Provider>
   )
 }
 
@@ -53,5 +71,11 @@ const styles = StyleSheet.create ({
     padding: 10,
     width: '100%',
     paddingHorizontal: 20,
+  },
+  placeListContainer: {
+    position: 'absolute',
+    bottom: 0,
+    zIndex: 10,
+    width: '100%',
   }
 })

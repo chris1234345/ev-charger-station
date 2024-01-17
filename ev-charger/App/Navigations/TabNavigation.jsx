@@ -25,7 +25,7 @@ export default function TabNavigation() {
       }}/>
       <Tab.Screen name="favorite" component={FavoriteScreen}
       options={{
-        tabBarLabel: 'Search',
+        tabBarLabel: 'Favorite',
         tabBarActiveTintColor: 'forestgreen',
         tabBarIcon: ({color,size})=>(
           <Ionicons name="ios-heart" size={size} color={color} />
@@ -34,7 +34,7 @@ export default function TabNavigation() {
       />
       <Tab.Screen name="profile" component={ProfileScreen} 
       options={{
-        tabBarLabel: 'Search',
+        tabBarLabel: 'Profile',
         tabBarActiveTintColor: 'forestgreen',
         tabBarIcon: ({color,size})=>(
           <FontAwesome name="user-circle" size={size} color={color} />
