@@ -4,12 +4,13 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useCallback, useEffect, useState } from 'react';
 import LoginScreen from './App/Screen/LoginScreen/LoginScreen';
-import { ClerkProvider, SignedIn, SignedOut } from '@clerk/clerk-expo';
+import { ClerkProvider, SignedIn, SignedOut} from '@clerk/clerk-expo';
 import * as SecureStore from 'expo-secure-store';
 import { NavigationContainer } from '@react-navigation/native';
 import TabNavigation from './App/Navigations/TabNavigation';
 import * as Location from 'expo-location';
 import { UserLocationContext } from './App/Context/UserLocationContext';
+
 
 SplashScreen.preventAutoHideAsync();
 
@@ -73,6 +74,23 @@ export default function App() {
   if (!fontsLoaded) {
 return null;
   }
+
+  const SignOut = () => {
+    const { isLoaded,signOut } = useAuth();
+    if (!isLoaded) {
+      return null;
+    }
+    return (
+      <View>
+        <Button
+          title="Sign Out"
+          onPress={() => {
+            signOut();
+          }}
+        />
+      </View>
+    );
+  };
 
   return (
     <ClerkProvider

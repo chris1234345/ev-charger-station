@@ -4,13 +4,21 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../Screen/HomeScreen/HomeScreen';
 import FavoriteScreen from '../Screen/FavoriteScreen/FavoriteScreen';
 import ProfileScreen from '../Screen/ProfileScreen/ProfileScreen';
+import FAQScreen from '../Screen/FAQScreen/FAQScreen';
+import SuggestionScreen from '../Screen/SuggestionScreen/SuggestionScreen';
 import { Ionicons } from '@expo/vector-icons';
 import Colors from '../Utils/Colors';
 import {FontAwesome} from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();
 
 export default function TabNavigation() {
+  const navigation = useNavigation();
+
+  
+
+
   return (
     <Tab.Navigator screenOptions={{
       headerShown: false,
@@ -41,6 +49,18 @@ export default function TabNavigation() {
         )
       }}
       />
+
+<Tab.Screen name="faq" component={FAQScreen} 
+      options={{
+        tabBarLabel: 'FAQ',
+        tabBarActiveTintColor: 'forestgreen',
+        tabBarIcon: ({color,size})=>(
+          <FontAwesome name="question" size={size} color={color} />
+        )
+      }}
+      />
+
+      
     </Tab.Navigator>
   )
 }
