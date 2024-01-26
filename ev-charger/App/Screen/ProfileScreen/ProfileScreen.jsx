@@ -1,16 +1,20 @@
 import { View, Text, Button, StyleSheet, TouchableOpacity, Image, TextInput } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useAuth, useUser } from '@clerk/clerk-expo'
-import { Link } from '@react-navigation/native'
+import { Link, NavigationContainer, useNavigation } from '@react-navigation/native'
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+import FAQScreen from '../FAQScreen/FAQScreen';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 export default function ProfileScreen() {
+  const navigation = useNavigation();
   const {signOut, isSignedIn} = useAuth()
   const {user} = useUser();
   const [firstName, setFirstName] = useState('user?.firstName');
   const[lastName, setLastName] = useState(user?.lastName);
   const [email, setEmail] = useState(user?.emailAddresses[0].emailAddress);
   const [edit, setEdit] = useState(false);
+  const Stack = createNativeStackNavigator();
+  
 
   useEffect(() => {
     if(!user) return;
@@ -77,6 +81,9 @@ export default function ProfileScreen() {
       <Text>Since {user?.createdAt?.toLocaleDateString()}</Text>
     </View>
 )}
+
+      
+
 
       <Button title='Log out' onPress={() => signOut()}/>
       {!isSignedIn && (
