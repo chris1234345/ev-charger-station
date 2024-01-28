@@ -6,6 +6,7 @@ import { app } from '../../Utils/FirebaseConfig';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { useUser } from '@clerk/clerk-expo';
 import PlaceItem from '../HomeScreen/PlaceItem';
+import { useFocusEffect } from '@react-navigation/native';
 
 export default function FavoriteScreen() {
   const db = getFirestore(app);
@@ -16,6 +17,7 @@ export default function FavoriteScreen() {
     user&&getFav();
   },[user])
   const getFav=async() => {
+    console.log('getFav');
     setLoading(true);
     setFavList([]);
 
@@ -28,6 +30,16 @@ export default function FavoriteScreen() {
       setLoading(false);
     });
   }
+  useFocusEffect( 
+    React.useCallback(() => {
+      // Your function logic here
+      getFav();
+      // Optional: Return a function to run when the component loses focus
+      return () => {
+        console.log('Screen is unfocused');
+      };
+    }, [])
+    );
   return (
     <View style={{marginBottom: 100}}>
       <Text style={{padding: 10, fontFamily: 'Outfit-medium', fontSize: 30}}>My Favorite Place</Text>
